@@ -46,7 +46,31 @@
 
 
 body {
+  width: 100%;
   color: var(--foreground);
   background: var(--background);
   font-family:"WooridaumR","WooridaumB","WooridaumL";
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 393px;
+  height: 100vh;
+  overflow-y: auto;
+  margin: 0 auto;
+  background-color: #a7a1a1;
+  position: relative;
+  padding-bottom: 60px;
+  box-sizing: border-box;
+}
+  
+nav{
+  position: fixed;
+  left: 50%;
+  bottom: 0;
+  width: 100%;
+  max-width: 393px;
+  margin-left: -196.5px;
+  height: 60px;
+  background-color: #703333;
 }
