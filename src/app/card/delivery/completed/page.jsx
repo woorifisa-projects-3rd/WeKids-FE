@@ -17,6 +17,9 @@ const NewComponent = () => {
                     <ReloadIcon className="mr-2 transform rotate-180 scale-x-[-1]" />
                     뒷면보기
                 </button>
+                <p className="mt-4 text-white text-R-20" >
+                    카드 발급을 완료했습니다!
+                </p>
             </div>
         </div>
         
