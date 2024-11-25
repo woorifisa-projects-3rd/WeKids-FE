@@ -1,8 +1,8 @@
 'use client';
 
 import React from 'react';
-import CardCharacter from '@/src/ui/Components/card-select/CardCharacter';
-import CustomButton from '@/src/ui/Components/atoms/CustomButton';
+import CardCharacter from '@/src/ui/components/card-select/CardCharacter';
+import CustomButton from '@/src/ui/components/atoms/CustomButton';
 import Header from '@/src/ui/layout/Header';
 
 const NewComponent = () => {
