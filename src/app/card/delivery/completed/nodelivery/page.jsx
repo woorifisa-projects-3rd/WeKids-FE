@@ -5,7 +5,7 @@ import CardCharacter from '@/src/ui/Components/card-select/CardCharacter';
 import CustomButton from '@/src/ui/Components/atoms/CustomButton';
 import Header from '@/src/ui/layout/Header';
 
-const CardIssueComplete = () => {
+const CardIssueComplete_nodelivery = () => {
     return (
       <div className="flex flex-col justify-between h-screen bg-white">
         <Header />
@@ -28,11 +28,11 @@ const CardIssueComplete = () => {
             size="large" 
             className="w-full"
             onClick={() => alert('확인 버튼 클릭')}>
-            확인
+            배송지 등록하러가기
           </CustomButton>
         </div>
       </div>
     );
   };
   
-  export default CardIssueComplete;
+  export default CardIssueComplete_nodelivery;
