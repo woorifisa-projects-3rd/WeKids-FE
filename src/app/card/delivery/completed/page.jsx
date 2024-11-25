@@ -17,16 +17,16 @@ const NewComponent = () => {
                     <ReloadIcon className="mr-2 transform rotate-180 scale-x-[-1]" />
                     뒷면보기
                 </button>
-                <p className="mt-4 text-white text-R-20" >
+                <p className="mt-4 text-white text-R-20">
                     카드 발급을 완료했습니다!
                 </p>
             </div>
         </div>
         
-        <div className="w-full p-4">
+        <div>
           <CustomButton 
             size="large" 
-            className="w-full" 
+            className="w-full"
             onClick={() => alert('확인 버튼 클릭')}>
             확인
           </CustomButton>
